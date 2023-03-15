@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="style.css">
+
+    <title>CEP</title>
+</head>
+<body>
+    <main>
+
+        <form>
+            <input type="number" placeholder="Digite seu CEP" id="inpCEP">
+            <button id="button">Enviar</button>
+            <span class="error-msg">CEP inválido.</span>
+        </form>
+
+        <div id="info">
+            <table>
+                <tbody>
+                    <tr>
+                        <td>CEP:</td>
+                        <td id="CEP"></td>
+                    </tr>
+                    <tr>
+                        <td>Logradouro:</td>
+                        <td id="Logradouro"></td>
+                    </tr>
+                    <tr>
+                        <td>Complemento:</td>
+                        <td id="Complemento"></td>
+                    </tr>
+                    <tr>
+                        <td>Bairro:</td>
+                        <td id="Bairro"></td>
+                    </tr>
+                    <tr>
+                        <td>Localidade:</td>
+                        <td id="Localidade"></td>
+                    </tr>
+                   
+                </tbody>
+        
+        <table>
+            <tbody>
+                <tr>
+                    <td>UF:</td>
+                    <td id="UF"></td>
+                </tr>
+                <tr>
+                    <td>IBGE:</td>
+                    <td id="IBGE"></td>
+                </tr>
+                <tr>
+                    <td>GIA:</td>
+                    <td id="GIA"></td>
+                </tr>
+                <tr>
+                    <td>DDD:</td>
+                    <td id="DDD"></td>
+                </tr>
+                <tr>
+                    <td>SIAFI:</td>
+                    <td id="SIAFI"></td>
+                </tr>
+            </tbody>
+        </table>
+        </div>
+
+    </main>
+</body>
+
+<script src="script.js"></script>
+
+</html>
